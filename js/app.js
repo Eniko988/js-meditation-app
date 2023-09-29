@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const path = document.querySelector(".rect"),
-    remainingTimeEl = document.querySelector(".audio-remaining-time");
+  remainingTimeEl = document.querySelector(".audio-remaining-time");
 
   const pathLenght = path.getTotalLength();
 

@@ -5,8 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 });
 
 const open =() =>{
-    const openMenuBtn = 
-    document.querySelector(".toggle-menu"),
+    const openMenuBtn = document.querySelector(".toggle-menu"),
     seasonsMenu = document.querySelector('.seasons');
 
     openMenuBtn.addEventListener("click",()=>{
